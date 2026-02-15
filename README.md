@@ -189,7 +189,7 @@ ecommerce/
 
 6. **Rate products**
    - Go to your cart
-   - Select a rating (1-5 stars) for purchased items
+   - Select a rating (1-5 stars) for products in your cart
    - Submit your rating
 
 ## Database Schema
@@ -206,11 +206,10 @@ The application uses four main tables:
 - Password hashing using PHP's `password_hash()` function
 - Session-based authentication
 - Login requirement for protected pages
-- SQL parameterization (should be improved with prepared statements)
 
 ## Future Improvements
 
-- Implement prepared statements to prevent SQL injection
+- **Critical**: Implement prepared statements to prevent SQL injection vulnerabilities
 - Add payment gateway integration
 - Implement order confirmation emails
 - Add admin panel for product management
